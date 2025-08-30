@@ -15,7 +15,7 @@
 
 ## Create container from the new image
       #use this code to build
-      docker build -t img-name:version
+      docker build -t img-name:version .  #the dot here mean 'Search here for the Dockerfile to build from'
       docker run -d -p 8000:8080 img-name
       # to test if it work 
       curl http://localhost:8000
