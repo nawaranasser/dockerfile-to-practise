@@ -21,3 +21,23 @@
       curl http://localhost:8000
 
 <img width="940" height="660" alt="image" src="https://github.com/user-attachments/assets/4a9187b8-ae8f-45a2-862c-ddfbc12d453b" />
+
+# you need to push this img to your docker hub
+
+## login to docker hub
+    docker login -u noranasser750
+    # enter your password
+
+## to push nun-official image you should change the img name to :->
+    dockerhub-name/img-name
+    ex: noranasser750/my-database-app
+<img width="920" height="33" alt="image" src="https://github.com/user-attachments/assets/31555573-580b-453e-bdb3-7d8ea981404a" />
+
+## then push it 
+<img width="938" height="264" alt="image" src="https://github.com/user-attachments/assets/f77347b9-75f7-49e7-8124-46ae2f1ac044" />
+
+### it is there 
+<img width="1028" height="633" alt="image" src="https://github.com/user-attachments/assets/40a22a65-1a34-4afa-9265-76fac41ac161" />
+
+
+    
